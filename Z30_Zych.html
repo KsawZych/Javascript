@@ -1,0 +1,37 @@
+<html>
+    <head>
+    <script type="text/javascript">
+    var wiezowiec = {
+        pietra: '21',
+        imie: 'Marek',
+        zawod: 'informatyk',
+        wys: '56',
+        nazwisko: 'Zych',
+
+    ile_pieter: function ()
+    {
+        document.write( 'Wieżowiec ma ' + this.pietra + ' pięter / piętra' + '<br>')
+    }
+    ,wyskosc: function()
+    {
+        document.write( 'Wieżowiec ma ' + this.wys + ' metrów wysokości' + '<br>')
+    }
+    }
+    wiezowiec.ile_pieter();
+    wiezowiec.rok_wybudowania=1953;
+    wiezowiec.wypisz = function() {alert('rok wybudowania ' + this.rok_wybudowania + '<br>')}
+    wiezowiec.wypisz();
+    wiezowiec.wyskosc();
+    </script>
+    </head>
+    <body>
+        <br>
+        Programowanie obiektowe. <br>
+        Obiekt to człowiek<br>
+        Pola:<br>
+        Nazwisko<br>
+        imie<br>
+        zawod<br>
+        metoda: metoda <br>
+    </body>
+</html>
