@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+ <head> 
+ <title> proste obliczenia</title> 
+ <meta charset="utf-8"> 
+ </head> 
+<body>
+<div style="color:rgb(111, 0, 255);font-size:50px;">
+ <script language="JavaScript">
+var liczba1=prompt("Podaj pierwszą liczbę A=","");
+var liczba2=prompt("Podaj drugą liczbę B=","");
+var a_zych=parseFloat(liczba1);
+var b_zych=parseFloat(liczba2);
+ document.write("A="+a_zych+" <br> ");
+ document.write("B="+b_zych+" <br> ");
+ d=a_zych*a_zych*a_zych;
+ e=3*(a_zych*a_zych)*b_zych;
+ f=3*(b_zych*b_zych)*a_zych;
+ g=b_zych*b_zych*b_zych;
+ suma=d+e+f+g;
+ document.write("("+a_zych+"+"+b_zych+")"+"^3 = "+a_zych+"^3 + 3*(("+a_zych+")^2)*("+b_zych+") + 3*("+a_zych+")*"+"(("+b_zych+")^2) + "+b_zych+"^3 ="+d+"+"+e+"+"+f+"+"+g+"="+suma+"<br>");
+ </script>
+</div>
+<button class="button" onclick="window.location.href='index.html'"><Zych-Zadania>wróc</Zych-Zadania></button>
