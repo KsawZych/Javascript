@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <textarea rows="30" cols="100">
+            <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <h2>Zadanie 37: Sprawdź przedział liczbowy</h2>
+        <input type="button" name="zadanie37" value="Sprawdź przedział" onclick="zadanie37()" />
+        
+        <script>
+            function zadanie37() {
+                var x = parseFloat(prompt("Podaj liczbę:", ""));
+                if ((x >= -2 && x < 3) || x > 5) {
+                    document.write('<p style="color: green; font-size: 4;">Liczba należy do przedziału</p>');
+                } else {
+                    document.write('<p style="color: red; font-size: 4;">Liczba nie należy do przedziału</p>');
+                }
+            }
+        </script>
+    </body>
+</html>
+        </textarea>
+    </body>
+</html>
